@@ -1,0 +1,117 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+p {
+    margin-bottom: 20px;
+}
+
+@font-face {
+    font-family: 'Alkidenz';
+    font-style: normal;
+    font-weight: normal;
+    src: url('./assets/font/KaushanScript-Regular.ttf');
+}
+
+header {
+    background: rgba(0, 0, 0, 0.9);
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+}
+
+.logo {
+    float: left;
+    display: block;
+    padding-top: 2px;
+    padding-left: 10px;
+}
+
+.textlogo {
+    font-family: 'Alkidenz';
+    float: left;
+    display: block;
+    padding: 8px;
+    color: rgb(251, 71, 98);
+}
+
+nav {
+    float: right;
+}
+
+nav ul {
+    list-style: none;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+}
+
+nav ul li a {
+    display: block;
+    padding: 20px;
+    color: #fff;
+    text-decoration: none;
+}
+
+nav ul li:hover {
+    background: rgb(251, 71, 98);
+}
+
+section {
+    margin-top: 80px;
+}
+
+@charset "utf-8";
+.tarjeta {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 320px;
+    border: 1px solid lightgray;
+    box-shadow: 2px 2px 8px 4px #d3d3d3d1;
+    border-radius: 15px;
+    font-family: sans-serif;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.titulo {
+    font-size: 24px;
+    padding: 10px 10px 0 10px;
+    ;
+}
+
+.cuerpo {
+    padding: 10px;
+}
+
+.cuerpo img {
+    width: 300px;
+}
+
+.pie {
+    background: #6699ff;
+    border-radius: 0 0 15px 15px;
+    padding: 10px;
+    text-align: center;
+}
+
+.pie a {
+    text-decoration: none;
+    color: white;
+}
+
+.pie a:after {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+    content: ""
+}
